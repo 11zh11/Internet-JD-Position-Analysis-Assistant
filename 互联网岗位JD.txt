@@ -1,0 +1,181 @@
+一、开发类（细分方向JD要点）
+ 
+1. Java后端开发
+ 
+- 核心职责：负责业务系统后端服务的设计、编码与迭代；输出接口文档、进行服务治理；排查线上故障、做性能调优；参与技术方案评审与架构优化。
+- 核心硬技能：
+- 语言基础：Java核心（集合、多线程并发、JVM内存模型与调优）
+- 主流框架：Spring Boot、Spring Cloud、Spring MVC、MyBatis/MyBatis-Plus
+- 中间件：Redis、MySQL、RabbitMQ/Kafka、Nacos、Sentinel、Elasticsearch
+- 工具链：Git、Maven/Gradle、Docker、K8s基础、Postman、JMeter
+- 加分项：分布式事务、微服务架构设计、高并发场景落地经验
+ 
+2. Go后端开发
+ 
+- 核心职责：负责高并发后端服务、云原生组件、基础设施的开发维护；服务性能优化与架构迭代；底层工具与中间件研发。
+- 核心硬技能：
+- 语言基础：Go核心（goroutine协程、channel通道、GMP调度模型）
+- 主流框架：Gin、Echo、Go-Zero、Kratos、Beego
+- 存储组件：MySQL、Redis、MongoDB、TiDB
+- 中间件：Kafka、ETCD、Consul、gRPC
+- 云原生：Docker、Kubernetes、Istio、Prometheus
+- 工具链：Git、Go Module、Makefile、Shell脚本
+ 
+3. Python开发（后端/工具开发方向）
+ 
+- 核心职责：后端API接口开发、业务系统功能迭代；自动化脚本与工具开发；数据处理、爬虫系统搭建；AI模型的服务化封装。
+- 核心硬技能：
+- 语言基础：Python核心（装饰器、生成器、协程、面向对象）
+- 后端框架：Django、Flask、FastAPI、Tornado
+- 存储组件：MySQL、PostgreSQL、Redis、MongoDB
+- 常用工具：Celery异步任务、Scrapy/BeautifulSoup爬虫、Requests
+- 工具链：Git、Pipenv/Poetry、Docker、Linux基础
+ 
+4. 前端开发
+ 
+- 核心职责：Web/H5/小程序页面开发与交互实现；前端工程化建设；页面性能优化、多端兼容适配；配合后端完成接口联调。
+- 核心硬技能：
+- 基础三件套：HTML5、CSS3、JavaScript（ES6+）、TypeScript
+- 主流框架：Vue全家桶（Vue2/Vue3、Pinia/Vuex、Vue Router）、React全家桶（Hooks、Redux/Mobx、React Router）
+- 工程化：Webpack、Vite、Babel、ESLint、npm/yarn/pnpm
+- UI组件：Element UI、Ant Design、Vant、Tailwind CSS
+- 加分项：Uni-app/React Native跨端开发、Node.js、小程序开发、前端性能优化
+ 
+ 
+ 
+二、测试类（细分方向JD要点）
+ 
+1. 功能测试工程师
+ 
+- 核心职责：参与需求评审，设计测试用例；执行功能/回归测试，提交与跟踪缺陷；输出测试报告，保障上线质量。
+- 核心硬技能：
+- 测试基础：黑盒测试方法、用例设计（等价类、边界值等）、缺陷管理流程
+- 工具：禅道/Jira缺陷管理、Postman接口调试、Fiddler/Charles抓包
+- 基础能力：SQL增删改查、Linux常用命令、业务理解能力
+ 
+2. 自动化测试工程师
+ 
+- 核心职责：搭建自动化测试框架；开发接口/UI自动化脚本；对接CI/CD实现自动化执行；提升测试效率。
+- 核心硬技能：
+- 编程语言：Python/Java 至少一门
+- 自动化框架：Pytest/TestNG、Selenium（UI）、Appium（移动端）、Requests（接口）
+- 工具链：Git、Jenkins、Allure报告、PO设计模式
+- 基础：SQL、Linux、接口测试原理
+ 
+3. 性能测试工程师
+ 
+- 核心职责：制定性能测试方案；执行压测、定位性能瓶颈；输出优化建议，保障系统高并发稳定性。
+- 核心硬技能：
+- 压测工具：JMeter、LoadRunner、Locust
+- 监控分析：Linux性能命令、Prometheus/Grafana、数据库性能分析
+- 核心能力：性能指标解读（TPS、响应时间、并发数）、瓶颈定位、SQL优化
+ 
+ 
+ 
+三、运维/云原生类（细分方向JD要点）
+ 
+1. 应用运维工程师
+ 
+- 核心职责：线上环境部署与变更；故障排查与应急处理；监控告警体系维护；日常运维脚本开发。
+- 核心硬技能：
+- 系统：Linux系统精通、Shell/Python脚本编写
+- 工具：Git、Jenkins、Docker、Zabbix/Prometheus监控
+- 基础：Nginx配置、MySQL基础、网络基础、日志分析
+ 
+2. DevOps/云原生工程师
+ 
+- 核心职责：搭建CI/CD持续集成流水线；容器化部署与K8s集群运维；基础设施即代码建设；研发效能提升。
+- 核心硬技能：
+- 容器编排：Docker、Kubernetes核心组件与运维
+- CI/CD：Jenkins、GitLab CI、Argo CD
+- 基础设施：Terraform、Ansible、阿里云/AWS云平台
+- 可观测性：Prometheus、Grafana、ELK日志栈
+ 
+ 
+ 
+四、产品类（细分方向JD要点）
+ 
+1. C端产品经理
+ 
+- 核心职责：用户端产品功能规划与迭代；用户调研、竞品分析；输出PRD与原型；跨团队推动项目落地；数据复盘优化。
+- 核心硬技能：
+- 工具：Axure、Figma、XMind、Excel
+- 能力：需求拆解、用户研究、数据分析、跨部门协调、项目管理
+ 
+2. B端/后台产品经理
+ 
+- 核心职责：后台系统、业务平台的产品规划；梳理业务流程、抽象通用能力；对接业务方与研发，推动系统落地。
+- 核心硬技能：
+- 工具：Axure、Visio、SQL、原型工具
+- 能力：业务抽象、流程梳理、逻辑思维、复杂需求拆解
+ 
+3. 数据产品经理
+ 
+- 核心职责：数据平台、数据产品的规划与设计；对接数据开发，落地数据能力；输出数据报表与分析工具。
+- 核心硬技能：
+- 工具：SQL、Axure、BI工具（Tableau）
+- 能力：数仓基础认知、指标体系搭建、业务理解、数据思维
+ 
+ 
+ 
+五、运营类（细分方向JD要点）
+ 
+1. 用户运营
+ 
+- 核心职责：用户分层与生命周期管理；社群/用户体系搭建；留存、促活、转化提升；用户反馈收集与优化。
+- 核心硬技能：
+- 工具：Excel、企业微信、社群运营工具
+- 能力：用户分层方法论、活动策划、数据分析、用户沟通
+ 
+2. 内容运营
+ 
+- 核心职责：内容选题与生产；内容分发与流量优化；账号矩阵运营；内容数据复盘与策略迭代。
+- 核心硬技能：
+- 工具：Office、剪映基础、各内容平台后台
+- 能力：文案撰写、内容策划、平台规则理解、数据复盘
+ 
+3. 活动运营
+ 
+- 核心职责：活动策划与方案输出；资源协调与落地执行；效果数据追踪与复盘；提升拉新/转化/活跃指标。
+- 核心硬技能：
+- 工具：Excel、活动搭建工具
+- 能力：全流程活动策划、成本把控、跨部门协调、转化优化
+ 
+ 
+ 
+六、数据类（细分方向JD要点）
+ 
+1. 数据分析师
+ 
+- 核心职责：业务数据提取与报表搭建；业务问题专题分析；输出分析结论与优化建议；支撑业务决策。
+- 核心硬技能：
+- 核心工具：SQL（必备）、Excel（透视表、函数）
+- 可视化：Tableau、Power BI、FineBI
+- 加分：Python（Pandas、Numpy）、AB测试、业务分析思维
+ 
+2. 数据开发工程师
+ 
+- 核心职责：数据仓库建设与建模；ETL数据管道开发；大数据平台维护；数据质量治理。
+- 核心硬技能：
+- 核心：SQL、Hive、Spark、Flink
+- 大数据组件：Hadoop、Kafka、HBase
+- 语言：Python/Java、Shell脚本
+- 能力：数仓建模（维度建模）、数据管道设计
+ 
+ 
+ 
+七、设计类（细分方向JD要点）
+ 
+1. UI设计师
+ 
+- 核心职责：产品界面视觉设计、图标/素材设计；设计规范与组件库搭建；切图标注，跟进开发还原效果。
+- 核心硬技能：
+- 工具：Figma、Photoshop、Illustrator、Sketch
+- 能力：视觉审美、多端设计规范、组件化思维、动效基础
+ 
+2. 交互/UX设计师
+ 
+- 核心职责：用户研究与需求分析；交互流程与信息架构设计；输出交互原型；可用性测试与体验优化。
+- 核心硬技能：
+- 工具：Figma、Axure、XMind
+- 能力：用户研究方法、交互设计原则、逻辑思维、需求理解

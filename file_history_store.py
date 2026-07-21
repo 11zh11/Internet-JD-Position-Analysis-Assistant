@@ -24,14 +24,7 @@ class FileChatMessageHistory(BaseChatMessageHistory):
         all_messages = list(self.messages)      # 已有的消息列表
         all_messages.extend(messages)           # 新的和已有的融合成一个list
 
-        # 将数据同步写入到本地文件中
-        # 类对象写入文件 -> 一堆二进制
-        # 为了方便，可以将BaseMessage消息转为字典（借助json模块以json字符串写入文件）
-        # 官方message_to_dict：单个消息对象（BaseMessage类实例） -> 字典
-        # new_messages = []
-        # for message in all_messages:
-        #     d = message_to_dict(message)
-        #     new_messages.append(d)
+      
 
         new_messages = [message_to_dict(message) for message in all_messages]
         # 将数据写入文件

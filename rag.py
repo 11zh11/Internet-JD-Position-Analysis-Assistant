@@ -14,18 +14,7 @@ from operator import itemgetter
 
 class RagService():
     def __init__(self):
-        # 1. 初始化原生通义向量模型
-        # dash_emb = DashScopeEmbeddings(model=config.embedding_model_name)
-        # 2. 包装类：修复DashScope底层bug（API要求文本必须是数组）
-        #  class EmbeddingWrapper:
-        #     def embed_query(self, text):
-        #         # 单文本查询强制包装成列表调用批量接口，解决 input.texts should be array 400报错
-        #         return dash_emb.embed_documents([text])[0]
-        #     def embed_documents(self, texts):
-        #         # 批量文本直接透传原生方法
-        #         # return dash_emb.embed_documents(texts)
-        # safe_embedding = EmbeddingWrapper()
-
+       
         # 3. 传入修复后的向量实例，初始化向量库服务
         self.vector_service = VectorStoreService(
             embedding=DashScopeEmbeddings(model=config.embedding_model_name)
